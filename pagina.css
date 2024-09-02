@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: brown;
+}
+
+.h1 {
+    color: green;
+    
+}
+
+.cor-verde  {
+    color: green;
+
+}
+.usuario-ativo {
+    color: green;
+}
+
+.usuario-inativo {
+    color: red;
+}
+
+.linha-impar {
+background-color: blueviolet;
+}
+.linha-par {
+
+}
+.margin {
+    margin: 32px;
+}
+
+.padrao-font-letra {
+    color: white;
+    font-size: 32px;
+    font-family: 'Times New Roman';
+
+    
+}
