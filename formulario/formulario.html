@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <h1 class="class-h1" id= "id-h1">TESTE 1</h1>
+    <h1 class="classe-h1">TESTE 2</h1>
+    <h1 class="classe-h1">TESTE 3</h1>
+    <h1>TESTE 4</h1>
+    <h1>TESTE 5</h1>
+    
+    <form class="formulario borda" method="get">
+        <label for="data">Data :</label>
+        <input class="input" type="date" name="data" id="data">
+
+        <br><br>
+
+        <label for="texto">Caixa de dexto comum :</label>
+        <input type="text" name="texto" id="texto" maxlength="30" minlength="3">
+
+        <br><br>
+
+        <label for="numero">Caixa de texto de números :</label>
+        <input type="number" name="numero" id="numero">
+        
+        <br><br>
+        
+        <label for="DataHora"></label>
+        <input type="datetime-local" name="DataHora" id="DataHora">
+
+        <br><br>
+
+        <label for="notificar">Receber notificações no seu e-mail :</label>
+        <input type="checkbox" name="notificar" id="notificar">
+
+        <br><br>
+
+        <label for="arquivo">Enviar arquivo</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+        <br><br>
+
+        <label for="cor">Escolha a cor desejada</label>
+        <input type="color" name="cor" id="cor">
+
+        <br><br>
+
+        <label for="senha">Digite sua Senha: </label>
+        <input type="text" name="senha" id="senha">
+
+        <br><br>
+
+        <label for="genero">Genero :</label>
+        <span>M</span>
+        <input type="radio" name="genero" id="genero"value="">
+        <span>F</span>
+        <input type="radio" name="genero" id="genero"value="">
+        
+        <br><br>
+
+       <label for="selecao">Selecione Gênero :</label>
+    <select name="selecao" id="selecao">
+        <option value=""></option>
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+        <option value="O">Outros</option>
+    </select>
+
+    <br><br>
+
+    
+    <button type="reset">Reset</button>
+    <button type="submit">Enviar</button>
+    <button type="submit" disabled="disabled">Enviar</button>
+    </form>
+</body>
+</html>
