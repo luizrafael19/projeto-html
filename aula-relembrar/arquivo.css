@@ -1,0 +1,49 @@
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+.Texto-amarelo {
+    color: yellow;
+}
+
+.Texto-verde {
+    color: green;
+}
+
+.Texto-roxo {
+    color: purple;
+}
+
+.Texto-vermelho {
+    color: red;
+}
+
+.div1 {
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+}
+.div2 {
+    border: 1px solid black;
+    width: 96%;
+    height: 50px;
+    padding: 5px;
+}
+
+.div3 {
+    border: 1px solid black;
+    width: 250px;
+    height: 240px;
+}
+
+.div4 {
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    
+}
