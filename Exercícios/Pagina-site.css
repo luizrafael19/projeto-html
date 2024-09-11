@@ -1,0 +1,21 @@
+body {
+    /* background-color: rgb(177, 129, 129); */
+}
+
+.div1{
+    border: 150px solid rgb(99, 92, 92);
+    width: 100px;
+    height: 50px;
+}
+
+.div2 {
+    border: 150px solid yellow;
+    width: 100px;
+    height: 50px;
+}
+
+.div3 {
+    border: 50px solid orange;
+    width: 100px;
+    height: 50px;
+}
