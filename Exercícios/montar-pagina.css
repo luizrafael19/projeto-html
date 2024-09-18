@@ -1,0 +1,33 @@
+nav {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.div-logo {
+/* border: 1px solid blue; */
+width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.div-itens-nav {
+/* border: 1px solid green; */
+width:85%;
+display: flex;
+justify-content: right;
+
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.lista li {
+margin: 10px;
+}
+
+.div-logo img {
+    width: 50px;
+}

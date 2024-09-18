@@ -12,3 +12,22 @@ git commit -m "escrever a mensagem que vai ser o nome do arquivo salvo"
 o "-m" indica que vc deseja escrever uma mensagem
 
 git push - puxar as informaçãos para o github
+
+git config --list 
+Serve para mostrar as configurações do usuário
+
+git config --global user.name "nome do usuario"
+serve para confi
+
+git log 
+mostra todos os logs comites que já fiz.
+
+code . 
+Serve para abrir o visual studio
+
+
+
+
+
+
+----------------------------------------------------------------------------

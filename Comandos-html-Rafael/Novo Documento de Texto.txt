@@ -1,0 +1,22 @@
+width: 100%; É a largura de esquerda para direita 
+height: 500px; É altura
+border: 1px solid red; É a borda
+left: esquerda
+hight: direita
+down: baixo
+
+-----------------------------------------------------
+/* display: flex; serve para tirar as configurações padrões dos elementos para ser configurado da forma que quiser.*/
+----------------------------------------------------------------------------------------------------------------------
+flex-direction: column-reverse;
+Vai colocar o as divs para o lado oposto de onde ela esta, se a div está na direita, vai para a esquerda.
+----------------------------------------------------------------------------------------------------------------------
+justify-content: center;
+Comando para mover a div para onde desejar, centro, esquerda, direita 
+----------------------------------------------------------------------------------------------------------------------
+ align-items: center; serve para centralizar na linha que vc quer
+----------------------------------------------------------------------------------------------------------------------
+difereça entre o comando "div" e "nav" São praticamente a mesma coisa, o que muda é que quando usa-se o "nav" o progemador
+entende que está direcionando para uma pagina na internet. 
+------------------------------------------------------------------------------------------------------
+list-style-type: none; serve para tirar os pontos do item da lista
