@@ -1,0 +1,14 @@
+cd para acessar os caminhos
+
+ls para listar
+
+git status
+
+git add . para selecionar tudo que deseja subir
+git add espaço + caminho do arquivo, serve para subir só o arquivo especifico
+
+
+git commit -m "escrever a mensagem que vai ser o nome do arquivo salvo" 
+o "-m" indica que vc deseja escrever uma mensagem
+
+git push - puxar as informaçãos para o github
