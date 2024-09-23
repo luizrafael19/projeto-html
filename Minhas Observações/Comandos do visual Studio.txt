@@ -1,0 +1,28 @@
+ATALHOS:
+
+Control: para comentar linha
+
+-------------------------------------------------------------------------------
+COMANDOS
+
+height: altura
+width: Largura
+
+/*margin-top: 10px;*/ Serve para dar uma margem entre uma div e outra 
+
+display flex; Serve para tirar as configurações das Divs filhos para configurar do seu jeito.
+
+min-height: 200px; serve para definir o tamanho minimo da div.
+
+/* flex-direction: column; */ Serve para organizar as divs em colunas, uma a baixo da outra.
+
+/* flex-direction: row-reverse; */ Serve para remandejar as divs para o lado direito ou esquerdo.
+
+/* flex-direction: column-reverse; */ Serve para mover a coluna de cima para baixo.
+
+border:1px solid black; este comando serve para definir o tamanho da borda, usa o "solid" para especificar uma cor.
+
+/*justify-content: center;*/ Serve para realocar a div para onde quiser em HORIZONTAL, neste exemplo foi para o centro.
+
+/*align-items: center;*/ Serve para mover na vertical.
+justify-content:center; align-items: center; Usando os dois comandos juntos ele move e centraliza.
