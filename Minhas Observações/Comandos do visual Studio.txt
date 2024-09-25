@@ -3,10 +3,14 @@ ATALHOS:
 Control: para comentar linha
 
 -------------------------------------------------------------------------------
+width: 100%; É a largura de esquerda para direita 
+height: 500px; É altura
+border: 1px solid red; É a borda
+left: esquerda
+hight: direita
+down: baixo
+------------------------------------------------------------------------------------------------
 COMANDOS
-
-height: altura
-width: Largura
 
 /*margin-top: 10px;*/ Serve para dar uma margem entre uma div e outra 
 
@@ -26,3 +30,37 @@ border:1px solid black; este comando serve para definir o tamanho da borda, usa 
 
 /*align-items: center;*/ Serve para mover na vertical.
 justify-content:center; align-items: center; Usando os dois comandos juntos ele move e centraliza.
+
+/* grid-template-columns: 100fr 200px 200px; Serve para modificar os pixers das colunas das divs desejadas,
+ este comando além de mudar o tamanho das linhas em pixer, pode usar o "fr"fragmento, ele molda o tamanho
+ sem dar bug quanto ao tamanho da página
+
+o comando "repeat" Serve para repetir algum processo X vezes. Quando se usa junto com o "auto-fill" estou falando para ele auto repetir.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+/* display: flex; serve para tirar as configurações padrões dos elementos para ser configurado da forma que quiser.*/
+----------------------------------------------------------------------------------------------------------------------
+flex-direction: column-reverse;
+Vai colocar o as divs para o lado oposto de onde ela esta, se a div está na direita, vai para a esquerda.
+----------------------------------------------------------------------------------------------------------------------
+justify-content: center;
+Comando para mover a div para onde desejar, centro, esquerda, direita 
+----------------------------------------------------------------------------------------------------------------------
+ align-items: center; serve para centralizar na linha que vc quer
+----------------------------------------------------------------------------------------------------------------------
+difereça entre o comando "div" e "nav" São praticamente a mesma coisa, o que muda é que quando usa-se o "nav" o progemador
+entende que está direcionando para uma pagina na internet. 
+------------------------------------------------------------------------------------------------------
+list-style-type: none; serve para tirar os pontos do item da lista
+
+
+
+
+alt+seta para cima ou para baixo, move a linha desejada
+
+shift+alt+seta para baixo para replicar o comando 
+
+control+d seleciona o que quiser alterar de uma vez e aperta esse atalho para selecionar
