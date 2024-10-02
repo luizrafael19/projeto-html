@@ -4,6 +4,8 @@ ls para listar
 
 git status
 
+cd .. Para voltar uma pasta
+
 git add . para selecionar tudo que deseja subir
 git add espaço + caminho do arquivo, serve para subir só o arquivo especifico
 

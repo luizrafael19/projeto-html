@@ -6,7 +6,6 @@ body {
 
 .borda {
     border: 1px solid black;
-    min-height: 40px;
 }
 
 .header {
@@ -20,7 +19,9 @@ body {
     justify-content: center;
 }
 .header-logo img {
-    width: 160px;
+    width: 130px;
+    height: 50px;
+    margin-top: 25px;
 }
 
 .header-navegacao {
@@ -32,9 +33,20 @@ body {
     display: flex;
     margin-top: 30px;
 }
+
+.aba-ativa {
+    color: green;
+    border-bottom: 2px solid green;
+}
 .header-navegacao ul li {
     margin: 10px;
     cursor: pointer;
+    transition: 300ms;
+    height: 40px;
+}
+
+.header-navegacao ul li:hover{
+    color: green;
 }
 
 .header-acoes {
@@ -47,18 +59,18 @@ body {
 
 .header-acoes input {
     width: 350px;
-    height: 35px;
+    height: 25px;
     border-radius: 25px;
     border: solid gray;
 }
 .header-acoes img {
     margin-right: 15px;
-    width: 30px;
+    width: 35px;
     height: 30px;
 }
 .img-lupa {
    cursor: pointer;
-    position: relative;
+    position:relative;
     margin-left: -40px;
     
 }

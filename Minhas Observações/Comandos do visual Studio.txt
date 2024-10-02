@@ -11,6 +11,10 @@ hight: direita
 down: baixo
 ------------------------------------------------------------------------------------------------
 COMANDOS
+.header-navegacao ul li:hover{ Este hover serve para indicar uma ação, ele muda uma cofiguração em especifico, tipo uma fonte, uma cor, etc.
+
+Diferença de margin para margin-top:  a margin da uma margem geral, esquerda, direita, cima, baixo, já o top, centraliza conforme o 
+tamanho escolhido.
 
 /*margin-top: 10px;*/ Serve para dar uma margem entre uma div e outra 
 
