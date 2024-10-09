@@ -1,3 +1,11 @@
+Comandos para configurar git em uma máquina nova
+git config --global user.name ""
+git config --global user.email "luizrafael_20@hotmail.com"
+
+para ver se deu certo
+git config -- list - Tem que aparecer email e usuário
+git config list se estiver usando windows.
+------------------------------------------------------------------------------------	
 cd para acessar os caminhos
 
 ls para listar

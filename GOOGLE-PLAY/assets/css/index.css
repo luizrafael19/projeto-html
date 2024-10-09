@@ -7,7 +7,7 @@ justify-content: center;
     border: 1px solid black ;
     max-width: 1400px;
     flex-grow: 1;
-    padding: 40px;
+    padding: 0;30  px;
 }
 
 .conteudo-aparelhos {
@@ -18,7 +18,8 @@ justify-content: center;
 
 .itens-aparelhos {
     min-height: 25px;
-    width: 100px;
+    padding: 7px 10px 7px 10px;
+    width: auto;
     margin: 10px;
     border-radius: 15px;
     display: flex;
@@ -27,8 +28,90 @@ justify-content: center;
     flex-direction: row-reverse;
     
 }
+.itens-aparelhos :hover{
+color:rgb(26, 24, 24)
 
-.computador {
+}
+
+.aparelho-ativo{
+    background-color: rgb(191, 245, 191);
+}
+
+.itens-aparelhos img{
+    margin-top: 10px;
+    width: 20px;
+}
+/* esta forma comentada é a forma que da para fazer para cada imagem porém na forma simplificada,
+usa a forma de cima  */
+/* .computador {
     width: 15px;
     display: flex;
+    padding: 3px;
+
 }
+
+.telefone {
+    width: 15px;
+    display: flex;
+    padding: 3px;
+
+}
+
+.tablet {
+    width: 15px;
+    display: flex;
+    padding: 3px;
+
+} */
+
+.bloco {
+    min-height: 100px;
+    padding: 10px;
+    
+}
+
+.bloco-titulo {
+    min-height: 30px;
+}
+
+.bloco-titulo p b {
+    block-size: 20px;
+}
+
+.bloco-conteudo {
+    min-height: 80px;
+    padding: 2px;
+    display: flex;
+
+}
+.bloco-conteudo-item{
+    min-height: 250px;
+    width: 350px;
+    margin: 10px;
+}
+.bloco-conteudo-item-video {
+    height: 200px;
+}
+.bloco-conteudo-item-descricao{
+    min-height: 90px;
+    cursor: pointer;
+
+}
+.bloco-conteudo-imagem{
+    width: 30%;
+    min-height: 90px;
+}
+.bloco-conteudo-imagem img {
+    width: 100px;
+    height: 100px;
+}
+.bloco-conteudo-texto{
+    width: 70%;
+    min-height: 90px;
+}
+
+.video{
+    width: 100%;
+    height: 95%;
+}
+
