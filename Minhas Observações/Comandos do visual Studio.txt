@@ -1,6 +1,8 @@
 ATALHOS:
+control + shift + P  Para mostrar os atalhos do visual estudio.
+Digitar shortcuts e selecionar o "Preference open defalt keyboard (JSON)"
 
-Control: para comentar linha
+No windows:Control: para comentar linha
 
 -------------------------------------------------------------------------------
 width: 100%; É a largura de esquerda para direita 

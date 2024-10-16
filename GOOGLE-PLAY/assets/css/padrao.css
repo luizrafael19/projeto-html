@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 .header-logo img {
-    width: 130px;
+    width: 150px;
     height: 50px;
     margin-top: 25px;
 }
@@ -29,6 +29,9 @@ body {
     flex-grow: 1;
 }
 .header-navegacao ul {
+    /* list-style-type: none;
+    serve para fazer listas usando ul, li e vem com ponto, este comando é para remover ponto 
+    da lista, etc */
     list-style-type: none;
     display: flex;
     margin-top: 30px;
@@ -45,6 +48,8 @@ body {
     height: 40px;
 }
 
+/* este hover serve para deixar a linha que vc quer diferente, quando passar o mouse em cima,
+neste caso, vai mudar a cor da div */
 .header-navegacao ul li:hover{
     color: green;
 }
