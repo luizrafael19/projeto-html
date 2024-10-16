@@ -7,7 +7,9 @@ git status
 cd .. Para voltar uma pasta
 
 git add . para selecionar tudo que deseja subir
-git add espaço + caminho do arquivo, serve para subir só o arquivo especifico
+git add espaço + caminho do arquivo, serve para subir só o arquivo especifico ex: git add Minhas\ Observações
+porque a barra invertida ? para ele reconhecer que a pasta que tem dois nomes e espaço entre ela,
+não é um comando e sim continuação do seu nome.
 
 
 git commit -m "escrever a mensagem que vai ser o nome do arquivo salvo" 
