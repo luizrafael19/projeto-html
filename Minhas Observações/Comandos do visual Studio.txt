@@ -16,6 +16,8 @@ COMANDOS
 Diferença de margin para margin-top:  a margin da uma margem geral, esquerda, direita, cima, baixo, já o top, centraliza conforme o 
 tamanho escolhido.
 
+padding: Serve para dar borda do lado de dentro 
+
 /*margin-top: 10px;*/ Serve para dar uma margem entre uma div e outra 
 
 display flex; Serve para tirar as configurações das Divs filhos para configurar do seu jeito.
