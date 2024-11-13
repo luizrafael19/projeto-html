@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    font-family: "google Sans", Roboto,Arial,sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+.borda{
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.div-teste{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.div-titulo1{
+    display: flex;
+}
+
+.titulo{
+    margin: 10px;
+}
