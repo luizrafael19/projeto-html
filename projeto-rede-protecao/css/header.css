@@ -6,7 +6,17 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
-img.logo {
+.nome-empresa {
+    background-color: red;
+}
+
+.nav-lista {
+    background-color: blue;
+    flex-grow: 1;
+    display: flex;
+    justify-content:right;
+}
+.logo {
     height: 100px; /* ajuste conforme necessário */
     margin-right: 50px;
     width: 200px;
@@ -18,4 +28,22 @@ h1 {
     color: #333;
     margin: 0;
     border:1px solid black;
+}
+
+.lista-ul {
+    border: 1px solid black;
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    background-color: aqua;
+}
+.lista-ul li {
+    border: 1px;
+    margin: 10px;
+    background-color: red;
+    cursor: pointer;
+    transition: 0.3s;   
+}
+.lista-ul li:hover {
+    color: green;
 }
