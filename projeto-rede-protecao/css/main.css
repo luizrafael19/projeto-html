@@ -1,14 +1,13 @@
 
 .img-big  {
-    /* display: flex; */
+    display: flex;
     border: 1px solid black;
-    background-image: url('../img/tela-protecao.jpg');
+    /* background-image: url('../img/tela-protecao.jpg'); é uma forma de jogar imagemdireto no css */
     width: 100%;
     height: 500px;
     background-size: cover;
 }
-/* .img-big img{
+.img-big img{
     width: 100%;
-    height: 500px;
-    
-} */
+    height: 400px;    
+}
