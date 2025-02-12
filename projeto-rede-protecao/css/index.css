@@ -1,0 +1,31 @@
+.loc-install{
+    /* flex-direction: column row; serve para deixar as divs alinhadas abaixo da outra
+    quando usada nadiv pai */
+    flex-direction:column;
+    display: flex;
+
+}
+
+.texto-h1 h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+}
+.imagens div{
+    margin: 15px;
+}
+
+@media (max-width:400px){
+    .imagens{
+        flex-direction: column;
+    }
+}
