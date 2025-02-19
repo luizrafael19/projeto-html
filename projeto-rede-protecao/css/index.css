@@ -8,10 +8,11 @@
 
 .texto-h1 h1{
     font-family:'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .imagens {
@@ -19,13 +20,29 @@
     margin: 10px;
     padding: 10px;
     flex-direction: row;
+    justify-content: center;
 }
 .imagens div{
     margin: 15px;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.imagens div img{
+    width: 100%;
+    height:100%;
 }
 
 @media (max-width:400px){
     .imagens{
         flex-direction: column;
+    }
+    .img-big img{
+       max-height: 100%;
+        border: 5px solid red;
+    }
+    .img-big{
+        max-height: 200px;
     }
 }

@@ -70,3 +70,9 @@ h1 {
 .lista-ul li:hover {
     color: green;
 }
+
+@media (max-width:400px){
+    .nav-lista{
+        display: none;
+    }
+}

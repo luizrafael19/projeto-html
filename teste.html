@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Div ao Clicar</title>
+    <style>
+        /* Esconde o checkbox */
+        #toggle {
+            display: none; /* O checkbox não aparece na tela */
+        }
+
+        /* Estilos para o botão */
+        .trigger {
+            width: 120px;
+            height: 50px;
+            background-color: blue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            user-select: none;
+            margin-bottom: 10px; /* Espaço entre as divs */
+        }
+
+        /* Estilos para a div oculta */
+        .hidden-box {
+            width: 120px;
+            height: 50px;
+            background-color: red;
+            color: white;
+            display: none; /* Oculta inicialmente */
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+
+        /* Quando o checkbox estiver marcado, mostra a div */
+        #toggle:checked + .trigger + .hidden-box {
+            display: flex; /* Torna a div visível */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Checkbox oculto -->
+    <input type="checkbox" id="toggle">
+    
+    <!-- Botão para ativar -->
+    <label for="toggle" class="trigger">Clique Aqui</label>
+
+    <!-- Div que aparece ao clicar -->
+    <div class="hidden-box">Surpresa!</div>
+
+</body>
+</html>
