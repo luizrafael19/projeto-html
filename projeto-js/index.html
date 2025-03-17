@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,4 +26,59 @@
         <h1 class="titulo">imagem 3</h1>
     </div>
 </body>
+</html>
+ -->
+
+
+
+
+
+<html>
+
+// <!-- Script que executa sozinho, sem a intervenção do usuário -->
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Primeiro JavaScript</title>
+
+</head>
+
+<body>
+
+    <h1>Trabalhando com dados </h1>
+    
+    <button onclick="inicio()">Clique para se cadastrar</button>
+    
+    <script>
+        function inicio() {
+          let nome = window.prompt('Qual é o seu nome? ');
+          let idade = prompt('Digite a idade: ');
+    
+          // Verificação de idade
+          if (isNaN(idade)|| idade<= 0) {
+            console.log("Digite um número válido");
+          } else {
+            //se digitou número válido,verifique se pode cadastrar
+            if(idade >=18){
+                console.log('prosseguir com cadastro')
+            }else{
+                console.log('Impossível se cadastrar!')
+            }
+            window.alert(`Olá, ${nome}, você não pode se cadastrar!`);
+            // console.log("não é possível cadastrar!")
+            window.alert(`Olá, ${nome}, Cadastrado com sucesso!`);
+            // console.log("Cadastrado com sucesso!")
+          }
+        }
+      </script>
+    </body>
+    
+    </body>
+
 </html>
