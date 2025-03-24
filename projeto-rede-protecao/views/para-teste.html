@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrossel Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="carrossel" aria-labelledby="carrossel-titulo">
+      <h2 id="carrossel-titulo">Carrossel de Imagens</h2>
+
+      <div class="carrossel-container">
+        <figure class="carrossel-item">
+          <img src="imagem1.jpg" alt="Descrição da imagem 1">
+          <figcaption>Descrição da imagem 1</figcaption>
+
+        </figure>
+        <figure class="carrossel-item">
+          <img src="imagem2.jpg" alt="Descrição da imagem 2">
+          <figcaption>Descrição da imagem 2</figcaption>
+        </figure>
+
+        <figure class="carrossel-item">
+          <img src="imagem3.jpg" alt="Descrição da imagem 3">
+          <figcaption>Descrição da imagem 3</figcaption>
+        </figure>
+      </div>
+      
+      <nav aria-label="Navegação do carrossel">
+        <button class="prev" aria-label="Imagem anterior">❮</button>
+        <button class="next" aria-label="Próxima imagem">❯</button>
+      </nav>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

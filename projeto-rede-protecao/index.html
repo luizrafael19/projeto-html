@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/carrossel.css">
 
 </head>
 <body>
 
 <header>
+
     <div class="div-img">
         <img src="img/logo.jpg" alt="Logo" class="logo">
     </div>  
@@ -42,11 +44,42 @@
         <li>Quem somos</li>
 </nav>
 <main>
-    <div class="img-big">
+    <!-- <div class="img-big">
         <img src="./img/protecao-redes.PNG" alt="">
-    </div>
+    </div> -->
 
     <!-- section está no index.css -->
+
+    <section class="carrossel" aria-labelledby="carrossel-titulo">
+        <h2 id="carrossel-titulo">Carrossel de Imagens</h2>
+        
+        <div class="carrossel-container">
+          <figure class="carrossel-item">
+            <img src="./img/escada.jfif" alt="Descrição da imagem 1">
+            <figcaption>Descrição da imagem 1</figcaption>
+          </figure>
+          <figure class="carrossel-item">
+            <img src="./img/janelas.jfif" alt="Descrição da imagem 2">
+            <figcaption>Descrição da imagem 2</figcaption>
+          </figure>
+          <figure class="carrossel-item">
+            <img src="./img/piscina.jfif" alt="Descrição da imagem 3">
+            <figcaption>Descrição da imagem 3</figcaption>
+          </figure>
+          <figure class="carrossel-item" alt="">
+            <img src="./img/varanda.jfif" alt="Descrição da imagem">
+            <figcaption>Descrição da imagem 4</figcaption>
+          </figure>
+        </div>
+        <nav aria-label="Navegação do carrossel">
+          <button class="prev" aria-label="Imagem anterior">❮</button>
+          <button class="next" aria-label="Próxima imagem">❯</button>
+        </nav>
+      </section>
+    </main>
+  
+    <script src="script.js"></script>
+
     <section> 
         <div class="loc-install">
             <div class="texto-h1">

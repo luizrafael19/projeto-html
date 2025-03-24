@@ -1,0 +1,99 @@
+/* Reseta alguns estilos padrões do navegador para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  Definindo a fonte padrão e garantindo que o conteúdo seja centralizado na tela
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; Altura total da tela
+  margin: 0; Remove a margem padrão
+  background-color: #f4f4f4; Cor de fundo para dar contraste com o carrossel
+} */
+
+/* main {
+  Centraliza o conteúdo principal dentro de uma área fixa
+  width: 100%;
+  max-width: 960px; Largura máxima do carrossel
+  padding: 20px; Espaçamento interno do main
+} */
+
+.carrossel {
+  /* Define o layout básico do carrossel */
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Organiza os itens de forma vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.carrossel h2 {
+  /* Estilo para o título do carrossel */
+  font-size: 1.8rem;
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.carrossel-container {
+  /* O contêiner que segura as imagens do carrossel */
+  display: flex; /* Coloca as imagens em linha horizontal */
+  overflow: hidden; /* Esconde as imagens que saem da área visível */
+  width: 100%; /* A largura do contêiner é 100% do elemento pai */
+  max-width: 600px; /* Largura máxima para o carrossel */
+}
+
+.carrossel-item {
+  /* Cada item do carrossel (cada imagem) */
+  flex: 0 0 100%; /* Faz com que cada item ocupe 100% da largura do contêiner */
+  display: block; /* Garante que cada item seja tratado como bloco */
+  width: 100%;
+  height: auto;
+}
+
+.carrossel-item img {
+  /* Estiliza a imagem dentro de cada item */
+  width: 100%; /* A imagem ocupa 100% da largura do item */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 8px; /* Borda arredondada nas imagens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para dar destaque */
+}
+
+figcaption {
+  /* Estiliza a legenda abaixo de cada imagem */
+  text-align: center; /* Centraliza o texto */
+  font-size: 1rem; /* Tamanho da fonte da legenda */
+  margin-top: 8px; /* Espaço entre a imagem e a legenda */
+  color: #555; /* Cor da legenda */
+}
+
+/* nav {
+  O contêiner de navegação (os botões para avançar e voltar)
+  position: absolute; Posiciona o nav dentro do carrossel
+  top: 50%; Coloca o nav no meio vertical do carrossel
+  left: 0;
+  right: 0;
+  display: flex; Alinha os botões de navegação em linha
+  justify-content: space-between; Coloca os botões nas extremidades do carrossel
+  width: 100%; O nav ocupa toda a largura do contêiner
+  transform: translateY(-50%); Ajusta a posição para que fique centrado verticalmente
+} */
+
+button {
+  /* Estilo para os botões de navegação (anterior e próximo) */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão do botão */
+  font-size: 2rem; /* Tamanho grande da seta */
+  cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+  padding: 10px; /* Espaçamento interno do botão */
+  border-radius: 50%; /* Torna os botões circulares */
+  transition: background-color 0.3s ease; /* Transição suave para a mudança de cor do fundo */
+}
+
+button:hover {
+  /* Estilo do botão quando o mouse passa sobre ele */
+  background-color: rgba(0, 0, 0, 0.8); /* Aumenta a opacidade do fundo quando em hover */
+}

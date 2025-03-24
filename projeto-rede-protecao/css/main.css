@@ -1,12 +1,21 @@
-
+/* 
 .img-big  {
     border: 1px solid black;
-    /* background-image: url('../img/tela-protecao.jpg'); é uma forma de jogar imagemdireto no css */
     width: 100%;
     height: 500px;
     background-size: cover;
-}
-.img-big img{
+} */
+    /*NOTA: background-image: url('../img/tela-protecao.jpg'); é uma forma de jogar imagem direto no css */
+
+/* .img-big img{
     width: 100%;
     height: 100%;    
-}
+} */
+
+
+  
+   main {
+    width: 100%;
+    max-width: auto;
+    padding: 20px;
+  } 
