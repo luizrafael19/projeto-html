@@ -1,0 +1,35 @@
+COMANDOS SQL
+-------------------------------
+Abrir o banco que deseja usar.
+USE nome_do_banco;
+-----------------------------------------------------
+DESC Serve para mostrar os campos de uma tabela.
+ex: DESC Nome_tabela;
+-----------------------------------------------------
+Para ALTERAR/RENOMEAR algum campo da tabela.
+
+ALTER TABLE medico RENAME COLUMN crm TO crm_medico;
+DESC medico;
+-----------------------------------------------------
+Para adicionar dados/campos natabela.
+
+ALTER TABLE medico ADD sexo CHAR(1);
+DESC medico;
+-----------------------------------------------------
+Apagar algum campo/registro da tabela.
+
+ALTER TABLE medico DROP COLUMN idade;
+DESC medico;
+-----------------------------------------------------
+Modificar o tipo do campo ex: char para varchar.
+
+ALTER TABLE MEDICO MODIFY COLUMN sexo CHAR(1);
+DESC medico;
+-----------------------------------------------------
+ALTERAR INFORMAÇÕES REGISTRO DA TABELA.
+
+UPDATE medico
+SET especialidade="Otorrino", sexo="M"
+WHERE crm_medico="987";
+SELECT*FROM medico;
+-----------------------------------------------------
